@@ -1,0 +1,21 @@
+.slick-prev:before, 
+.slick-next:before {
+  color: red !important; /* Change arrow color */
+  font-size: 24px; /* Resize arrows */
+  opacity: 1; /* Ensure visibility */
+}
+.slick-next,.slick-prev{
+    height: inherit;
+    height: 80%;
+    width: 20px;
+    cursor: pointer;
+}
+.slick-prev{
+    left: -2px;
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, transparent);
+    
+}
+.slick-next{
+    right: -2px;
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%,  transparent);
+}
